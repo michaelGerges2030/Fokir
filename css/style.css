@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.home {
+  background-image: url(../Media/slider-02.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.main-container {
+  background-color: black;
+  background-size: 100% 100%;
+  height: 100vh;
+  opacity: 0.75;
+}
+h2 {
+  padding-top: 50px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* navbar */
+.container {
+  width: 90%;
+  margin: auto;
+}
+.nav {
+  padding: 18px;
+}
+.nav-logo {
+  width: 40%;
+  float: left;
+  font-size: 25px;
+}
+.nav-logo a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links {
+  width: 55%;
+  float: right;
+}
+.nav-links ul li {
+  float: left;
+  list-style-type: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.nav-links ul li:hover a {
+  color: red;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.5s;
+}
+.clr {
+  clear: both;
+}
+
+/* home content */
+.home-content {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+}
+.home-content p {
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+}
+.home-content h1 {
+  color: red;
+  font-size: 60px;
+  font-weight: bold;
+}
+.bord {
+  border: 10px solid black;
+}
+.IHello-img {
+  top: 20px;
+  left: 20px;
+}
+.animate::after {
+  animation: typingAnimation 1s infinite;
+  color: white;
+  display: block;
+  content: "Professional Web ";
+}
+@keyframes typingAnimation {
+  0% {
+    content: "Professional Web D|";
+  }
+  12% {
+    content: "Professional Web De|";
+  }
+  25% {
+    content: "Professional Web Des|";
+  }
+  37% {
+    content: "Professional Web Desi|";
+  }
+  50% {
+    content: "Professional Web Desig|";
+  }
+  65% {
+    content: "Professional Web Design|";
+  }
+  80% {
+    content: "Professional Web Design|";
+  }
+  80% {
+    content: "Professional Web Designe|";
+  }
+  95% {
+    content: "Professional Web Designer|";
+  }
+  100% {
+    content: "Professional Web Designer|";
+  }
+}
+ul {
+  list-style-type: none;
+}
+.container .btn {
+  background-color: red;
+}
+.container {
+  overflow: hidden;
+}
+.IHello-content p {
+  border-bottom: 1.5px dotted black;
+}
+.icons i{
+   color: white ;
+}
+.icons i:hover{
+    color: red;
+}
+
+/* Our Services Section */
+.our-services {
+  background-color: #f1f1f1;
+}
+.line1 {
+  border-bottom: 0.5px red solid;
+  padding: 5px 0px;
+  width: 5%;
+  margin: auto;
+}
+.line2 {
+  border-bottom: 0.5px red solid;
+  padding: 3px 0px;
+  width: 13%;
+  margin: auto;
+}
+.line3 {
+  border-bottom: 0.5px red solid;
+  padding: 3px 0px;
+  width: 5%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.inner:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px;
+  .icon {
+    scale: 1.2;
+  }
+}
+
+/* Portfolio */
+.layer {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: 0.75s;
+}
+.IHello-img .layer {
+  top: 100%;
+}
+.inside-img .layer .icn {
+  right: 10px;
+  bottom: 10px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link.active{
+    color: red;
+}
+.image:hover .layer,
+.IHello-img:hover .layer {
+  opacity: 1;
+  top:0;
+}
+
+/* counter section */
+.counter {
+  background-color: #f1f1f1;
+}
+
+/* Client's Feedback section */
+.feedback .box {
+  background-color: #f1f1f1;
+}
+.feedback .item-photo {
+  z-index: 10000;
+}
+.feedback .item-photo img {
+  width: 100px;
+  height: 100px;
+}
+.brdr {
+  border: 100px solid;
+  border-color: red transparent transparent red;
+}
+
+/* Our Blog Section */
+.our-blog {
+  background-color: #f1f1f1;
+}
+.aspect-ratio {
+  aspect-ratio: 16/9;
+}
+h4,
+.redSpan {
+  transition: 0.25s;
+}
+.content h4:hover,
+.content .redSpan:hover {
+  color: red;
+  .arrow {
+    color: red;
+  }
+}
+.content i {
+  color: black;
+}
+
+/* contact us section */
+.btn {
+  background-color: red;
+}
+
+/* footer */
+.footer {
+  background-color: #333333;
+}
+.github {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.red {
+  color: red;
+}
